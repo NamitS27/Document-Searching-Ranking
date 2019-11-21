@@ -131,18 +131,20 @@ def print_sentence(index, i):
 
 def findAll(titleL, matchlist, query_doc):
     ind = -1
-    print(titleL)
     for i in range(len(titleL)):
         if query_doc == titleL[i]:
             ind = i
             break
+    return False
     if ind == -1:
         print("No doc found")
+        return False
     elif len(matchlist[ind]) == 0:
         print("No Match Found")
+        return False
     else:
         k = 0
-        print("Sentence : " +matchlist[ind][0][0], "| Pos. = ", matchlist[ind][0][1])
+        print("Sentence : " +matchlist[ind][0][0], "\t| Pos. = ", matchlist[ind][0][1])
         print("Next Occurance ? (Press N) : ", end=" ")
         ch = input()
         while ch == 'n' or ch == 'p':
@@ -150,7 +152,7 @@ def findAll(titleL, matchlist, query_doc):
                 if k < len(matchlist[ind])-1:
                     k = k+1
                     print("Sentence : " +matchlist[ind][k][0],
-                          "| Pos. = ", matchlist[ind][k][1])
+                          "\t| Pos. = ", matchlist[ind][k][1])
                 else:
                     print("No further occurance found")
             else:
@@ -162,6 +164,7 @@ def findAll(titleL, matchlist, query_doc):
                     print("No more previous occurance")
             print("\nNext(n) / Previous(p) / Exit(e): ", end=" ")
             ch = input().lower()
+        return True
 
 
 # Main
@@ -174,27 +177,27 @@ while ch == "y" or ch == "Y":
         print('Give a query string : ')
         query_string = input().strip()
         test1, test2 = all_matches(query_string)
-        print("Enter the document in the which you want to find : ")
+        print("Enter the document in the which you want to find : ",end = " ")
         file_q = input()
-        findAll(test1, test2, file_q)
-        print("HIGHLIGHT FILES ? (Y/N) : ")
-        chh = input()
-        if chh.lower()=='y':
-            file_pdf = []
-            for i in filenames:
-                file_pdf.append(convert(i))
-            for i in file_pdf:
-                highlight(i,query_string)
+        if(findAll(test1, test2, file_q)):
+            print("HIGHLIGHT FILES ? (Y/N) : ",end = " ")
+            chh = input()
+            if chh.lower()=='y':
+                file_pdf = []
+                for i in filenames:
+                    file_pdf.append(convert(i))
+                for i in file_pdf:
+                    highlight(i,query_string)
 
-    elif choice == 2:
-        print('Give a query string : ')
-        query_string = input().strip()
-        for i in range(0, n):
-            ret_list = first_substring_match(query_string, i)
-            if ret_list[1] != -1:
-                print('Title : {0:>18}\t\t\tPosition : {1:>4}\t\t\tSubstring : {2:>4}'.format(
-                    fables[i].get_title(), str(ret_list[1]), ret_list[0]))
-                print("Sentence : ", print_sentence(ret_list[1], i))
+    # elif choice == 2:
+    #     print('Give a query string : ')
+    #     query_string = input().strip()
+    #     for i in range(0, n):
+    #         ret_list = first_substring_match(query_string, i)
+    #         if ret_list[1] != -1:
+    #             print('Title : {0:>18}\t\t\tPosition : {1:>4}\t\t\tSubstring : {2:>4}'.format(
+    #                 fables[i].get_title(), str(ret_list[1]), ret_list[0]))
+    #             print("Sentence : ", print_sentence(ret_list[1], i))
 
     elif choice == 3:
         print('Give a query string : ')

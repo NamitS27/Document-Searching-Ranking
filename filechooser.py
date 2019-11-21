@@ -4,7 +4,7 @@ from tkinter.filedialog import askopenfilenames
 
 def multfile():
     Tk().withdraw()
-    files = askopenfilenames()
+    files = askopenfilenames(filetypes=(("txt", "*.txt"),("docx", "*.docx")))
     files = list(files)
     finalf = []
     for i in range(len(files)):

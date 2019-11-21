@@ -1,7 +1,6 @@
 import os
 from suffix_tree import SuffixTree
 
-
 # def remove_empty_lines(filename):
 #     with open(filename) as in_file, open(filename, 'r+') as out_file:
 #         out_file.writelines(line for line in in_file if line.strip())

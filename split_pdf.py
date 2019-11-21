@@ -3,6 +3,7 @@ import fitz
 import cloudconvert
 
 def convert(filename):
+    print("CONVERTING .........")
     api = cloudconvert.Api(
         '2R83XvhTuELfut2PvQbv0rRgPRSlTGA2wICqnQRUdnJL7YVua17xrHHpufJzqQtC')
     process = api.convert({
