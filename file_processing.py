@@ -37,7 +37,7 @@ def addTitle(filename):
 #         ff.write(string+"\n")
 
 def mergeFiles(filenames):
-    os.remove("C:\\Users\\Namit\\Desktop\\Suffix-Trees-master\\output.txt")  # change the path according to your pc
+    os.remove("output.txt")  # change the path according to your pc
     with open("output.txt", 'a+',encoding="utf8") as ff:
         for i in range(len(filenames)):
             with open(filenames[i], 'r',encoding="utf8") as fp:
