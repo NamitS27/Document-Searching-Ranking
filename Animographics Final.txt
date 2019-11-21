@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿ANIMOGRAPHICS                                                                                   
 
 
@@ -210,4 +211,218 @@ References
       https://www.lifewire.com/is-flash-or-animated-gifs-better-140528
 16. Subscribers.com. (n.d.). Retrieved from: https://www.quicksprout.com/2014/08/13/what-type-of-images-should-you-use-within-your-blog-posts/ 
 17. M. (2006, August 19). Areva. Retrieved from:       
+=======
+﻿ANIMOGRAPHICS                                                                                   
+
+
+RUNNING HEAD: ANIMOGRAPHICS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+“Animographics”
+
+
+COM102 - Advanced Writing
+
+
+Prof. Payel C Mukherjee
+
+
+
+
+
+
+
+
+
+
+
+
+Team 1
+Yashraj Kakkad (Leader)
+Prayag Savsani
+Rushil Sojitra
+Harvish Zariwala
+Mohammadrazin Mansuri
+
+
+16th August 2018
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Overview
+     “Animographics” or animated infographics are graphic visual representation of data to present information quickly and clearly. They are successors of infographics and go a step further by introducing moving elements. With better visibility and more understandability, animographics were introduced due to a flaw in infographics -  their failure to explain the mechanism of working models in depth.
+History
+By 2000, animation based infographics started storming the internet. Televisions too started implementing animographics to enhance the viewers’ experience. One of its first example is the 2002 music video by Norwegian musicians of “Röyksopp”, for their song “Remind Me”. The video entirely consisted of animographics.
+Similarly, in 2004, a television commercial for the French energy company Areva used animated infographics as an advertising tactic. Both of these videos and the attention they received have conveyed the potential value of animographics to describe complex information efficiently - leading to its use across domains. They are a means for bloggers and marketers to stand out in the crowd and promote their content online. They have become effective tools for educators to impart knowledge. Here’s an example of an animographic on “How a handgun works”, created by AnimaGraffs.com:
+  
+
+Image source: https://animagraffs.com/how-a-handgun-works-1911-45/ 
+With the advent of free online tools, the use has become widespread with marketers experimenting different techniques for the implementation of animographics in their marketing tactics.
+Data Visualization
+Introduction - Data Visualization revolves around the visual representation of data using either pictures or different types of graphs. Data visualization enables users to interact with data and analyze it, enabling them to conclude interesting patterns and correlations from the raw data. To perform such visualization of data, statistical graphics, different types of plots and infographics are used. Data involving lots of numerical entries can be effectively visualized using line charts, bar charts or other types of statistical graphics. This kind of visualization makes raw data more accessible and easily understandable to the end-users. According to Vitaly Friedman (2008), the main goal of data visualization is to convey information precisely and effectively using graphical means. To communicate ideas effectively, both the aesthetics and functionality need to go hand in hand, providing insight into a rather distorted and complex data set by providing its key-takeaways in a more natural manner. Yet designers often fail to achieve a balance between form and function, creating gorgeous data visualizations which fail to serve their main purpose — to communicate information. Data visualization is closely related to statistical graphics, information graphics, and this relation also extends to animated infographics. 
+Modern Data Visualization Systems – In this “Big Data” era, modern systems should be able to handle extensively large and dynamic datasets using machines with limited computational and memory resources. Moreover, modern systems should also address the challenges of the visualization of a large number of data objects which are part of a dataset. It can be said that a modern system must be able to squeeze a billion data objects into million pixels. Besides this, these systems should also be satisfying the preferences and requirements proposed by a given user or task. The user should be able to customize the visualization process based on his/her requirements. Further, the systems should be automatically adjusting themselves according to the environment and available resources. At last, it’s difficult for users to effectively explore and analyze data when a large amount of information is available. Hence, modern systems should have mechanisms in place to assist the user and reduce the work in their part. Recently, several methods have been developed to recommend proper visualization methods to the user. These recommendations are made using factors such as characteristics of data, given task, the preference, and behavior of the user.
+Data Visualization & Visual Perception - The extent to which your data visualization is effective for the end-user depends on how well your work has used the principles of visual perception. Colin Ware in his book “Information Visualization: Perception for Design”, explains why it is important to understand visual perception: "Why should we be interested in visualization? Because the human visual system is a pattern seeker of enormous power and subtlety. The eye and the visual cortex of the brain form a massively parallel processor that provides the highest-bandwidth channel into human cognitive centers. At higher levels of processing, perception and cognition are closely interrelated, which is the reason why the words "understanding" and "seeing" are synonymous. However, the visual system has its own rules. We can easily see patterns presented in certain ways, but if they are presented in other ways, they become invisible. If we can understand how perception works, our knowledge can be translated into rules for displaying information. Following perception-based rules, we can present our data in such a way that the important and informative patterns stand out. If we disobey the rules, our data will be incomprehensible or misleading."
+Whenever we perceive an object, it is done using simple attributes such as length, shape, and color. These basic visual attributes are perceived very easily and not require any significant effort from the end-user and this process of perception is called “Pre-attentive” processing which is in contrast to attentive processing, is extremely fast. For example, it may take a long time for a user to find how many times number “5” appeared in a string of numbers which is attentive processing but it might take him no time to do the same thing if that digit is different in size or color than the other ones which is pre-attentive processing. Here is a list of pre-attentive attributes commonly used in data visualization:
+   
+Source: Tapping the Power of Visual Perception (September 4, 2004) – Stephen Few
+Some of these attributes are perceptually stronger than others. Some can be analyzed quantitatively better than others and hence can be used to encode numerical data. When properties of symbolic data are mapped to visual attributes, users can go through large amounts of data efficiently. It is estimated that 2/3 of the brain's neurons can be involved in visual processing. Proper visualization provides a different approach to show potential connections, relationships, etc. which are not as obvious in non-visualized quantitative data. 
+Forms of Data Visualization - The most important forms of data visualization are time-series data, statistical  data  and maps and then hierarchies and networks. All the types of data visualization have common base characteristics  like  a set of mappings between data properties and visual attributes such as position, size, shape, and color which can be used to customize new visualizations by varying these encodings. The main types of data visualization are:
+* Time Series Data - Time series data is one of the most common forms of recorded data. Time series is often used to compare large series of data and for that many visualizations are available like Index charts, Stacked graphs, Small multiples and Horizon graphs. Index graphs are important when a relative changes in data are more useful than the static figures. Statistical graphs are aggregate patterns and are formed by stacking area charts on top of each other. In stacking, multiple time series can be placed on the same axes but pacing them in such a way can produce overlapping due to which the data becomes illegible.
+ So, small multiples are used wherein each time series has its own chart which improves the visibility of the infographic. Horizon graphs are used to include even more time series while maintaining the resolution of the infographic.
+
+
+             
+  
+
+ 
+Source: Heer, J., Bostock, M., & Ogievetsky, V. (2010). A tour through the visualization zoo. Communications of the ACM
+ 
+ 
+   
+ 
+ A small multiple graph showing the fertility in USA and Japan
+ 
+ 
+
+
+
+
+  
+
+A horizon graph showing the price change in commodities since 1990
+Source: https://flowingdata.com/2015/07/02/changing-price-of-food-items-and-horizon-graphs/ 
+* Statistical Distributions: Statistical distributions are visualizations which help to understand the distribution of numbers in a set of data and the statistical properties of the data. Common examples of statistical distributions are histograms and box-and-whisker plots, which convey statistical features such as mean, median, and outliers. In addition to these infographics, there are others such as stem and leaf plots, Q-Q plots, scatter plot matrices (SPLOM) and parallel coordinates. The stem and leaf plots are used for assessing a collection of numbers as an alternative to histogram. It bins a number according to the first significant digit, and then stacks the values within each bin by the second significant digit. Q-Q plot is a more powerful tool than histograms and stem and leaf  plot. It is used to compare two probability distributions by graphing their quantiles against each other. Multivariable data occurs frequently in data sets and is difficult to represent as it is hard to mentally picture the data in three dimensions. But SPLOM(Scatter Plot Matrices) enable visual inspections of correlations between any pair of variables. In parallel coordinates , without graphing every pair of coordinates in two dimensions, the data is repeatedly plotted on parallel axes and then the corresponding points are joined by lines.  
+  
+ 
+ Example of SPLOM(Scatter Plot Matrix)
+Image source: http://hci.stanford.edu/jheer/files/zoo/ 
+* Maps: Maps are used to represent geographical data. They are based on a cartographic projection; a function which helps to plot the three dimensional image of the earth in two dimensions. The main types of infographics with maps as their base are flowmaps, chloropleth maps, graduated symbol maps and cartograms. Time and  space related topics can be depicted through flow maps. Chloropleth maps can be used to represent data through colors and geographical region. Graduated symbol maps are alternatives of chloropleth maps and can be used to represent data through pie charts for each area of map. Cartograms pull out the shape of a region and can encode a data variable directly.
+  
+ 
+ A cartogram showing 2012 US results
+* Hierarchies: Different data sets like spatial entities such as countries, states, structures of businesses and governments can be represented through natural hierarchies. The types of infographics that use hierarchical method are Node-link diagrams, adjacency diagrams and enclosure diagrams. Node-link diagrams are more commonly used due to its simplicity and neatness. It resembles a tree which branches into multiple sub-sections. Another type is adjacency diagram which is similar to node-link diagram but instead of nodes it contains solid areas with sub-sections inside each section. They are used more commonly when the size of different data sets is to be represented. Enclosure diagrams also use solid areas instead of nodes but instead of adjacency, they use containment method.   
+ Example of Node- Link diagram
+Image source: https://homes.cs.washington.edu/~jheer/files/zoo/ 
+   * Networks: In abstract form, a hierarchy is a special form of network. They are used to depict relationships between two things like friendship and cliques. Some of the basic types of network infographics are force-directed layouts, arc diagrams and matrix views. Force-directed layout implements the concept of charged particles that repel each other and links are strings which hold them together. The interactivity of force-directed layout allows the user to make changes to the layout. Arc diagrams use one dimensional layout of nodes which are linked by circular arcs. They are not as effective as two dimensional layout but if presented correctly, they can easily represent the cliques and bridges. They have various applications in visualization, statistics, and even archaeology. Matrix views are used more commonly by mathematicians and scientists. By using color and saturation instead of text, the values associated with the data can be understood more rapidly. As line crossings are a common and annoying occurrence in node-link diagrams, matrix views are used to effectively spot clusters and bridges as line crossings in matrix views are impossible.   
+An arc diagram showing the co-occurrence of characters in Les Miserables
+Image source: http://blog.revolutionanalytics.com/2013/02/visualizing-networks-in-r-arc-diagrams-and-hive-plots.html 
+
+
+Animation in animographics
+        Most of the animographics fall into the given brackets for incorporating animation:
+Graphical Interchange Format (GIFs). The Graphical Interchange format (GIF) is a bitmap image format which was created by a team at the Bulletin Board Service (BBS) which was led by Steve Wilhite, an American computer scientist on June 15, 1987. Since then it has been one of the biggest breakthroughs in the history of web animation. A GIF is a collection of individual bitmap files, and the animation is just the files being played in a sequence. This is one of the initial forms of web animation and is widely popular till date. 
+        Below is an example of separate bitmap images for motion of a ball on the horizontal axis:
+  
+
+
+Image source: https://computer.howstuffworks.com/web-animation2.htm
+Below is the final animation:
+  
+As the example indicates, the GIF needs to have multiple collated bitmap images to create motion in the real sense. In fact, animated movies have at least 24 frames in a second. Therefore, the size of GIFs is a concern. 
+Since the animation is step by step, this method is known as point to point animation.
+A few other forms exist - such as tweening. The starting and ending points of the animation are added, and the animation takes care of everything in between. Below is an example:
+Starting point:  Ending point:   Tweened image:  
+Images source: https://www.deviantart.com/iingo/journal/How-to-Tween-Animations-on-Photoshop-595872062 
+When tweening is implemented to changing faces, it’s known as morphing. An example:
+  
+
+Image source: https://giphy.com/gifs/katy-perry-loki-morphing-L6NepMn3x07qE 
+GIFs currently support only 256 colors which is a disadvantage, but when the animation is small, GIFs are usually preferred because they can be created with limited hassle. Also, transparency is easier to achieve in GIFs. 
+Flash animation: Flash animation is created in Adobe Flash platform or a similar software and distributed in the SWF (Shockwave Flash) format. Flash can seamlessly integrate raster formats such as bitmaps, videos and vector graphics. Since most of the animations incorporate the latter, it usually results in a clean appearance. Flash files are usually smaller than GIFs in size, for vector graphics are mathematical representations and not every single frame is stored in the file. Flash can even store sound, as well as offer interactivity - both of which are big advantages.
+However, Flash can create a security vulnerability in the webpage. Also, flash requires the user to have its plugin installed. It is incompatible with older devices. Most importantly, Flash is slowly being replaced by newer open standards such as HTML5 and OpenGL which are offering most of the functionalities of Flash. As a result, Adobe has decided to discontinue Flash at the end of 2020.
+Tools
+   As animographics are computer based, the cannot be made using simple everyday tools like graph paper, pencils, markers, and rulers. They need specialized softwares which include tools for animation and continuous motion. Softwares like Moovly, Animaker, and Visme can be used to convert videos into gif based animographics. It is important to note that Moovly contains predefined libraries containing assets and Animaker has predefined templates with animatable objects which can help in creating animographics very efficiently. They can also be made indirectly using a variety of software. One such method is as follows : 
+     Firstly, if the infographic requires a 3D model to be incorporated into it which can be created using a 3D modeling software such as Blender, SketchUp, AutoDesk 3ds Max etc. For example, if the animographic requires a 3D molecular structure, it can be added by using Chimera. After the model is added, a vector graphics software like Adobe Illustrator CC, CorelDRAW or Inkscape is used to add blocks of text. This helps in maintaining image quality and reducing file size. The animation is then added into the main content by using animation software such as Adobe Flash, Anime Studio or Autodesk Maya. HTML5 and CSS can also be used as all browsers do not support Flash-based animation and it has a lot of compatibility issues due to the release of several versions of Flash. Finally, post-production software like Adobe Photoshop, Adobe After Effects, etc is used to add a finishing touch if needed.
+     Programming languages like Python can be used to create gif based animographics by combining multiple images. This function is included in “imageio” library which can be downloaded from its site. These images are multiple infographics made by using tools like Venngage, Piktochart, Canva, etc. 
+Significance
+        Use of visual data on the internet has increased by 400% since 1990 and 9900% since 2007. Human brain processes images 60,000 times faster than text and 90% of the information we consume is visual. It’s easier to represent complex data with animation aid. Animographics may have multiple moving parts, each representing a different piece of information. Animographics do not demand a massive budget, lighting or studio, making them an economic alternative to videos. A smaller file size ensures better prospects of being on the web - with no external script required.
+Impact
+        At the time of writing this article, 1,56,000 search results exist for the keyword “animated infographics” on Google. Animographics receive the highest amount of traction compared to other data types on the internet. 
+        Chris Murphy in his paper “Why games work and the science of learning” mentioned six different laws for learning to happen - readiness, exercise, effect, primacy, recency and intensity. Most animographics focus on these principles, particularly on intensity.
+        From a search engine optimization (SEO) perspective, animographics result in higher page visit duration and higher chances of getting promoted in social networking websites. Animographics are also a source of contextual links as the webmasters republishing the content tend to cite the creator’s webpage.
+        Dell’s GIF centric campaign. Static images weren’t enough for Dell to effectively showcase their Dell XPS 12 Convertible Infographic. The laptop had a hinge design which transformed it to a tablet. Since nobody knew the concept before, Dell had to explain the features in the email appropriately - which led them to think of animation. The company created a GIF which showed the laptop getting morphed into a tablet. The screen was filled with Windows 8 start menu to indicate that the product was a laptop as well as a touchscreen tablet. 
+  
+
+Image source: https://content.marketingsherpa.com/heap/cs/dell/1.htm 
+        The campaign yielded:
+      * 6% increase in open rate
+      * 42% increase in click rate
+      * 103% increase in conversion rate
+      * 109% increase in revenue
+        Research and studies. Mayer et al. (2005) reviewed previous similar researches on the learning efficacy of narrated animation versus static infographics, which were conducted by many studies. Some of them did not provide consistent proof to favor animated over static graphics (Narayan & Hegarty, 2002; Tversky et al., 2002; Hegarty et al., 2003). While other studies favored animation over static graphics; they stated that the animated versions included much more data and information than the printed static versions (Park & Gittelman, 1992). Also, in terms of complex systems, Tversky et al., (2002) stated that animation was not proven to do any better in providing an easier method for comprehension of the system.
+        A case study done by Hesham Galal Hassan of Iowa State University compared the effect of animated infographics and their static counterparts on memory retention. The author took up a complex science subject - “Phases of the moon”. Participants with the animated format (Group A) were given unlimited time with the video to make themselves comfortable with the subject. The rest (Group B), too, were given unlimited time with their print-out to clear their understanding. The participants were given the same set of pre-test and post-test questions to create statistical data for interpretation. Though limited by various means, the test indicated that static infographics were as effective as animographics. 
+
+
+Conclusion
+________________
+
+
+References
+      1. GIF Documentation. Retrieved from https://www.w3.org/Graphics/GIF/spec-gif87.txt
+      2. Diana Adams (2013, September 03). Why People Still Prefer Visual Infographics Over Text [Infographic]. Retrieved from: http://www.bitrebels.com/social/people-prefer-visual-infographics-text/
+      3. Animagraffs: Education Animated by Jacob O'Neal | Creative Cloud blog by Adobe. (n.d.). Retrieved from: https://blogs.adobe.com/creativecloud/animagraffs-education-animated-by-jacob-oneal/
+      4. Animated Infographics: What They Are and Can Do For Your Marketing. (n.d.). Retrieved from https://www.copypress.com/kb/infographics/animated-infographics-can-marketing/
+      5. Bikakis, N. (2018). Big Data Visualization Tools. Encyclopedia of Big Data Technologies, 1-6. doi:10.1007/978-3-319-63962-8_109-1
+      6. Friedman, V. (2008, January 14). Data Visualization and Infographics. Retrieved from: https://www.smashingmagazine.com/2008/01/monday-inspiration-data-visualization-and-infographics/
+      7. Stephen Few (September 2004). Tapping the power of Visual Perception. Retrieved from:
+            http://www.perceptualedge.com/articles/ie/visual_perception.pdf 
+8.   Stephen Few. Data Visualization for Human Perception. (n.d.). Retrieved from:                    https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/data-visualization-for-human-perception
+9.   Harris, T. (2000, November 09). How Web Animation Works. Retrieved from:    
+      https://computer.howstuffworks.com/web-animation3.htm
+10. Hassan, H. G. (n.d.). Designing Infographics to support teaching complex science            subject: A comparison between static and animated Infographics. doi:10.31274/etd-180810-5344
+11. Humans Process Visual Data Better. (2014, September 16). Retrieved from:
+      http://www.t-sciences.com/news/humans-process-visual-data-better     
+12. Lardinois, F. (2017, July 25). Get ready to finally say goodbye to Flash - in 2020. 
+      Retrieved from: 
+      https://techcrunch.com/2017/07/25/get-ready-to-say-goodbye-to-flash-in-2020/            
+13. McDaniel, S., & Beger, S. (2016, January 07). Email Marketing: Dell lifts revenue 109% 
+      Via GIF-centered campaign. Retrieved from:
+      https://www.marketingsherpa.com/article/case-study/gif-centric-email-campaign   
+14. Remind Me. (2018, August 16). Retrieved from: https://vimeo.com/2285902
+15. Sanders, A. (n.d.). The Pros and Cons of Flash and Animated GIFs. Retrieved from: 
+      https://www.lifewire.com/is-flash-or-animated-gifs-better-140528
+16. Subscribers.com. (n.d.). Retrieved from: https://www.quicksprout.com/2014/08/13/what-type-of-images-should-you-use-within-your-blog-posts/ 
+17. M. (2006, August 19). Areva. Retrieved from:       
+>>>>>>> 73f6b8fc9eece1b2356b55b0fdb2287ba13dfef6
       https://www.youtube.com/watch?v=E3B__ovj2jU
