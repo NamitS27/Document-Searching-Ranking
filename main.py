@@ -135,7 +135,6 @@ def findAll(titleL, matchlist, query_doc):
         if query_doc == titleL[i]:
             ind = i
             break
-    return False
     if ind == -1:
         print("No doc found")
         return False
@@ -170,17 +169,17 @@ def findAll(titleL, matchlist, query_doc):
 # Main
 ch = 'y'
 while ch == "y" or ch == "Y":
-    print("\n-----------------------------------------------------------------\n1. Find All occurences of a Query string \n2. Find the First occurence of a substring of given Query string \n3. Rank documents for the given Query string \n--------------------------------------------------------------------\nChoose from above")
+    print("\n-----------------------------------------------------------------\n1. Find All occurences of a Query string \n2. Rank documents for the given Query string \n--------------------------------------------------------------------\nChoose from above")
     choice = int(input().strip())
 
     if choice == 1:
-        print('Give a query string : ')
+        print('Give a query string : ',end = "")
         query_string = input().strip()
         test1, test2 = all_matches(query_string)
-        print("Enter the document in the which you want to find : ",end = " ")
+        print("Enter the document in the which you want to find : ",end = "")
         file_q = input()
         if(findAll(test1, test2, file_q)):
-            print("HIGHLIGHT FILES ? (Y/N) : ",end = " ")
+            print("\n---------------------------------------------------------------\nHighlight Files ? (Y/N) : ",end = " ")
             chh = input()
             if chh.lower()=='y':
                 file_pdf = []
@@ -199,10 +198,13 @@ while ch == "y" or ch == "Y":
     #                 fables[i].get_title(), str(ret_list[1]), ret_list[0]))
     #             print("Sentence : ", print_sentence(ret_list[1], i))
 
-    elif choice == 3:
-        print('Give a query string : ')
+    elif choice == 2:
+        print('Give a query string : ',end = "")
         query_string = input().strip()
         rank_docs(query_string)
+
+    else:
+        print("Wrong Input")
 
     print('\nContinue? (y/n)')
     ch = input().strip()

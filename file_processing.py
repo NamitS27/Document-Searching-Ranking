@@ -113,12 +113,36 @@ def make_suffix_tree(filename):
     final.append(SuffixTree(string, title, False))
     return final
 
+def clean_file(filename):
+    def is_all_whitespace(line):
+        for char in line:
+            if char != ' ' and char != '\n':
+                return False
+        return True
+
+    with open(filename, 'r',encoding="utf8") as file:
+        file_out = []
+        for line in file:
+            if is_all_whitespace(line):
+                line = '\n'
+            file_out.append(line)
+
+    while file_out[-1] == '\n': 
+        file_out.pop(-1)
+
+    if file_out[-1][-1] == "\n":
+        file_out[-1] = file_out[-1][:-1]
+    
+    with open(filename, 'w',encoding="utf8") as file:
+        file.write(''.join(file_out))
+
 
 def processFiles(filenames):
     
     for j in range(len(filenames)):
         if not checkTitle(filenames[j]):
             addTitle(filenames[j])
+        clean_file(filenames[j])
 
     mergeFiles(filenames)
     data = create_dataset(filenames)
