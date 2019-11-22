@@ -129,7 +129,7 @@ def print_sentence(index, i):
     return data[i][2][start:end]
 
 
-def findAll(titleL, matchlist, query_doc):
+def find_all(titleL, matchlist, query_doc):
     ind = -1
     for i in range(len(titleL)):
         if query_doc == titleL[i]:
@@ -178,7 +178,7 @@ while ch == "y" or ch == "Y":
         test1, test2 = all_matches(query_string)
         print("Enter the document in the which you want to find : ",end = "")
         file_q = input()
-        if(findAll(test1, test2, file_q)):
+        if(find_all(test1, test2, file_q)):
             print("\n---------------------------------------------------------------\nHighlight Files ? (Y/N) : ",end = " ")
             chh = input()
             if chh.lower()=='y':
@@ -187,16 +187,6 @@ while ch == "y" or ch == "Y":
                     file_pdf.append(convert(i))
                 for i in file_pdf:
                     highlight(i,query_string)
-
-    # elif choice == 2:
-    #     print('Give a query string : ')
-    #     query_string = input().strip()
-    #     for i in range(0, n):
-    #         ret_list = first_substring_match(query_string, i)
-    #         if ret_list[1] != -1:
-    #             print('Title : {0:>18}\t\t\tPosition : {1:>4}\t\t\tSubstring : {2:>4}'.format(
-    #                 fables[i].get_title(), str(ret_list[1]), ret_list[0]))
-    #             print("Sentence : ", print_sentence(ret_list[1], i))
 
     elif choice == 2:
         print('Give a query string : ',end = "")

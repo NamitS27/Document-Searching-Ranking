@@ -2,7 +2,7 @@ import sys
 import fitz
 import cloudconvert
 
-def converttotxt(filenames):
+def convert_to_txt(filenames):
     print("CONVERTING .........")
     final_files = []
     for i in filenames:

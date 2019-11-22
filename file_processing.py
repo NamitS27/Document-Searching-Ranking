@@ -6,7 +6,7 @@ from suffix_tree import SuffixTree
 #         out_file.writelines(line for line in in_file if line.strip())
 #         out_file.truncate()
 
-def checkTitle(filename):
+def has_title(filename):
     with open(filename,'r',encoding="utf8") as ff:
         line = ff.readline()
         linecheck = ff.readline()
@@ -16,7 +16,7 @@ def checkTitle(filename):
             return False
 
 
-def addTitle(filename):
+def add_title(filename):
     string = filename[0:len(filename)-4]+"\n\n"
     with open(filename,'r',encoding="utf8") as f:
         with open('newfile.txt','w',encoding="utf8") as f2:
@@ -35,7 +35,7 @@ def addTitle(filename):
 #     with open(filename, 'w+') as ff:
 #         ff.write(string+"\n")
 
-def mergeFiles(filenames):
+def merge_files(filenames):
     os.remove("output.txt")  # change the path according to your pc
     with open("output.txt", 'a+',encoding="utf8") as ff:
         for i in range(len(filenames)):
@@ -140,16 +140,16 @@ def clean_file(filename):
 def processFiles(filenames):
     
     for j in range(len(filenames)):
-        if not checkTitle(filenames[j]):
-            addTitle(filenames[j])
+        if not has_title(filenames[j]):
+            add_title(filenames[j])
         clean_file(filenames[j])
 
-    mergeFiles(filenames)
+    merge_files(filenames)
     data = create_dataset(filenames)
     final = make_suffix_tree("output.txt")
     return final, data
 
 # filenames = ["test1.txt","test2.txt","test3.txt"]
 # for j in range(len(filenames)):
-#     if not checkTitle(filenames[j]):
-#         addTitle(filenames[j])
+#     if not has_title(filenames[j]):
+#         add_title(filenames[j])

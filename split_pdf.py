@@ -43,3 +43,5 @@ def highlight(fname,text):
             #print("found '%s' %i times on page %i" % (text, found, page.number + 1))
     if new_doc:
         doc.save("Highlighted/HIGLIGHTED_" + doc.name)
+
+# highlight("wc2.docx","king")

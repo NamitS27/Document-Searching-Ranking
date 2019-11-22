@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import Tk
 from tkinter.filedialog import askopenfilenames
-from docx_to_txt import converttotxt
+from docx_to_txt import convert_to_txt
 
 def multfile():
     Tk().withdraw()
@@ -10,7 +10,7 @@ def multfile():
     finalf = []
     temp = []
     if files[0].endswith(".docx"):
-        temp = converttotxt(files)
+        temp = convert_to_txt(files)
         for i in range(len(temp)):
             string = temp[i]
             ind = 0
