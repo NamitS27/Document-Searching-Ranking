@@ -14,21 +14,21 @@ print("Number of documents readed : ", n)
 # Gives the indices at which the query string has occured. Zero based indexing is followed
 def all_matches(query_string):
     flag = 0
-    titlelist = []
-    titleoccur = []
+    title_list = []
+    occur_title = []
     for i in range(0, len(fables)):
         alloc = []
         index = fables[i].find_all_occurences(query_string)
-        titlelist.append(fables[i].get_title())
+        title_list.append(fables[i].get_title())
         for j in index:
             if j != -1:
                 flag += 1
                 #print('Title : ' + fables[i].get_title() + '\t\t Position : ' + str(j))
                 alloc.append([print_sentence(j, i), j])
-        titleoccur.append(alloc)
+        occur_title.append(alloc)
     # if flag == 0:
     #     print('No Match Found!!!')
-    return titlelist, titleoccur
+    return title_list, occur_title
 
 
 # Q2. Find the 1st Occurence of a query string. If not found, Find the 1st occurence of the longest substring of query string
