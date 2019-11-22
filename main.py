@@ -1,7 +1,7 @@
 import re
 from file_processing import processFiles
 import filechooser as fc
-from split_pdf import convert,highlight
+from highlight_pdf import convert,highlight
 
 filenames = fc.multfile()
 fables, data = processFiles(filenames)
@@ -169,7 +169,7 @@ def find_all(titleL, matchlist, query_doc):
 # Main
 ch = 'y'
 while ch == "y" or ch == "Y":
-    print("\n-----------------------------------------------------------------\n1. Find All occurences of a Query string \n2. Rank documents for the given Query string \n--------------------------------------------------------------------\nChoose from above")
+    print("\n-----------------------------------------------------------------\n1. Find All occurences of a Query string \n2. Rank documents for the given Query string \n--------------------------------------------------------------------\nChoose Option :",end = " ")
     choice = int(input().strip())
 
     if choice == 1:
@@ -181,12 +181,14 @@ while ch == "y" or ch == "Y":
         if(find_all(test1, test2, file_q)):
             print("\n---------------------------------------------------------------\nHighlight Files ? (Y/N) : ",end = " ")
             chh = input()
+            print("HIGHLIGHTING ........")
             if chh.lower()=='y':
                 file_pdf = []
                 for i in filenames:
                     file_pdf.append(convert(i))
                 for i in file_pdf:
                     highlight(i,query_string)
+            print("HIGHLIGHTING DONE")
 
     elif choice == 2:
         print('Give a query string : ',end = "")
