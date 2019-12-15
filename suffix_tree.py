@@ -84,8 +84,7 @@ class SuffixTree(object):
             s += self.string[edge.first_char_index:top+1] + "\n"
         return s
             
-    def _add_prefix(self, last_char_index):
-        
+    def _add_prefix(self, last_char_index):  
         last_parent_node = -1
         while True:
             parent_node = self.active.source_node_index
@@ -218,7 +217,7 @@ class SuffixTree(object):
                 if(i.source_node_index == curr_node):
                     # Do a dfs traversal to find all the leaves and store starting indices in matches list
                     matches = self.dfs(i, matches, len(substring))
-        elif(self.nodes[curr_node].suffix_node != -1 and flag != 0) :
+        elif(self.nodes[curr_node].suffix_node != -1 and flag != 0):
             for i in self.edges.values():
                 if(i.source_node_index == curr_node):
                     # Do a dfs traversal to find all the leaves and store starting indices in matches list

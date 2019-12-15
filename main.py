@@ -158,7 +158,7 @@ def find_all(titleL, matchlist, query_doc):
                 if k > 0:
                     k = k-1
                     print(matchlist[ind][k][0],
-                          "Pos. = ", matchlist[ind][k][1])
+                          "\t| Pos. = ", matchlist[ind][k][1])
                 else:
                     print("No more previous occurance")
             print("\nNext(n) / Previous(p) / Exit(e): ", end=" ")
