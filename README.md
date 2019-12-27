@@ -6,8 +6,13 @@
 Additional packages required to run the project are :
 
 ```
-PyMuPDF
-CloudConvert
+PyMuPDF           - pip install PyMuPDF
+CloudConvert      - pip install cloudconvert
+
+Latest version
+
+Last released: Nov 27, 2015
+
 ```
 
 ## Authors
