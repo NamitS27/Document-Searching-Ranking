@@ -3,7 +3,7 @@
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Additional packages required to run the project are :
 
 ```
 PyMuPDF
